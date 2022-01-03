@@ -1,6 +1,7 @@
 /*
 Example HW1
-Problem 2: Create a Quicksort class that takes an unordered list 
+Benjamin Dostie
+Problem 2: Create a Quicksort object that takes an unordered list 
 and returns an ordered list
 */
 

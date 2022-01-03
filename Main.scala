@@ -9,9 +9,9 @@ Benjamin Dostie
 Write a class for each of these problems in seperate files and 
 include them in a package
 Problem 1: Create a Person class that has name and age variables
-Problem 2: Create a Quicksort class that takes an unordered list 
+Problem 2: Create a Quicksort object that takes an unordered list 
 and returns an ordered list
-Problem 3: Create BinarySearch class that uses pattern
+Problem 3: Create BinarySearch object that uses pattern
 matching with tail recursion and returns an index
 Problem 4: Use quick sort and binary search to find a Person in 
 a list of Persons

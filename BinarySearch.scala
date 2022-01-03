@@ -1,7 +1,7 @@
 /*
 Example HW1
 Benjamin Dostie
-Problem 3: Create BinarySearch class that uses pattern matching 
+Problem 3: Create BinarySearch object that uses pattern matching 
 with tail recursion and returns the index of the item or -1.
 Put the class in a package and compile
 */
@@ -11,10 +11,10 @@ import math.Ordered.orderingToOrdered
 import myPackage.QuickSort.sort
 package myPackage{
 
-
+/** object to contain binary search algorithm */
 object BinarySearch {
-  /** searches for an element in an array
-   * @param arr array to be searched
+  /** searches for an element in a sorted array with binary search
+   * @param arr sorted array to be searched
    * @param item item to find
    * @return index of item or -1 if not found
    */
@@ -22,9 +22,9 @@ object BinarySearch {
     Ordered[T]): Int = {
 
     /** helper function for tailrec 
-     * @param arr array to be searched
+     * @param arr sorted array to be searched
      * @param item item to find
-     * @param upper upper inddex of the current partition
+     * @param upper upper index of the current partition
      * @param lower lower index of the current partition 
      * @return item index
      */
