@@ -20,6 +20,7 @@ Optional:
 Check out the main.scala file to see the code run
 
 The hommework prompt for this example:
+
 Write a class for each of these problems in seperate files and include them in a package
 
 Problem 1: Create a Person class that has name and age variables
