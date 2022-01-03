@@ -1,6 +1,7 @@
 # csci211
 Examples for Programming I and II uploaded to GitHub
 
+Check out the main.scala file to see the code run
 ## Conventions for saving homework:
 1. Save your code in file with .scala extension
 2. Make sure scala files compile without errors
@@ -17,7 +18,6 @@ Examples for Programming I and II uploaded to GitHub
 1. Practice writing documentation (<a href="https://docs.scala-lang.org/style/scaladoc.html#:~:text=It%20is%20important%20to%20provide%20documentation%20for%20all,about%20substance%20and%20writing%20style%20than%20about%20formatting." >Scaladocs</a>)
 2. Practice writing tests for your code with SBT (<a href="https://docs.scala-lang.org/scala3/book/tools-sbt.html">SBT</a>)
 
-Check out the main.scala file to see the code run
 
 ## The hommework prompt for this example:
 
