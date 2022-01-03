@@ -6,13 +6,14 @@
 /*
 Example HW1 
 Benjamin Dostie
+Write a class for each of these problems in seperate files and 
+include them in a package
 Problem 1: Create a Person class that has name and age variables
 Problem 2: Create a Quicksort class that takes an unordered list 
 and returns an ordered list
 Problem 3: Create BinarySearch class that uses pattern
 matching with tail recursion and returns an index
-Compile each of these classes in a package
-Problem 5: Use the quick sort and binary search to find a Person in 
+Problem 4: Use quick sort and binary search to find a Person in 
 a list of Persons
 */
 
