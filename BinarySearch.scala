@@ -26,7 +26,8 @@ object BinarySearch {
      * @param item item to find
      * @param upper upper inddex of the current partition
      * @param lower lower index of the current partition 
-    */
+     * @return item index
+     */
     @tailrec def binarySearch[T](arr: Array[T], item: T, 
       lower: Int, upper: Int)(implicit ord: T => Ordered[T]): Int = {
       if (lower > upper)
