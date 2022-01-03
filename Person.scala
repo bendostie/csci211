@@ -2,10 +2,12 @@
 Example HW1
 Problem 1: Create Person class that has name and age variables
 Compile this class in a package
+Example documentation taken from:
+https://docs.scala-lang.org/style/scaladoc.html
 */
 package myPackage{
-/** A person
- *
+/** A person who uses the program
+ * 
  *  @constructor create a new person with a name and age.
  *  @param name the person's name
  *  @param age the person's age in years

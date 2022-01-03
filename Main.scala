@@ -30,7 +30,7 @@ import myPackage.Person
   
   //limit lines to 70 characters
   val peopleList = List(Person("Jayden", 12), 
-  Person("Mary", 34), Person("Kemi", 19), bob)
+    Person("Mary", 34), Person("Kemi", 19), bob)
 
   //print what the function will do:
   println("Create an instance of Person class:")
@@ -39,4 +39,5 @@ import myPackage.Person
   //print input to function:
   println("Original: " + peopleList)
   println("Sorted: " + peopleList)
-  println("Find index of Person bob: " + search(sort(peopleList).toArray, bob))
+  println("Find index of Person bob: " + 
+    search(sort(peopleList).toArray, bob))

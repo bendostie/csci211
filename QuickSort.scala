@@ -11,10 +11,11 @@ package myPackage{
  * uses tail reursion and pattern matching
  */
 object QuickSort {
-  /** Method to get partition of a List at pivot location 
-  *  @param elm 
-  *  @param seq sequence to partition
-  */
+  /** Method to get partition of a List at pivot location
+   * 
+   *  @param elm 
+   *  @param seq sequence to partition
+   */
   def partition[T](elm : T, seq : List[T], fp :List[T], sp: List[T])(
   implicit ord: T => Ordered[T]): (List[T], List[T]) = seq match {
     case fe::fl => if (fe < elm) partition(elm, fl, fe::fp,sp)
@@ -25,8 +26,9 @@ object QuickSort {
   }
 
   /** Method to sort List
-  *  @param data list to sort
-  */
+   *
+   *  @param data list to sort
+   */
   def sort[T](data : List[T])(implicit ord: T => Ordered[T]): List[T] =
      data match {
     case Nil => Nil

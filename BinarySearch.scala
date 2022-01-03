@@ -1,8 +1,8 @@
 /*
 Example HW1
 Benjamin Dostie
-Problem 3: Create BinarySearch class that uses pattern
-matching with tail recursion and returns an index.
+Problem 3: Create BinarySearch class that uses pattern matching 
+with tail recursion and returns the index of the item or -1.
 Put the class in a package and compile
 */
 
@@ -22,6 +22,8 @@ object BinarySearch {
     Ordered[T]): Int = {
 
     /** helper function for tailrec 
+     * @param arr array to be searched
+     * @param item item to find
      * @param upper upper inddex of the current partition
      * @param lower lower index of the current partition 
     */
