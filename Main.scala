@@ -18,9 +18,9 @@ a list of Persons
 */
 
 //Be sure to include source files and compiled packages in submission:
-import com.ben.BinarySearch.search
-import com.ben.QuickSort.sort
-import com.ben.Person
+import myPackage.BinarySearch.search
+import myPackage.QuickSort.sort
+import myPackage.Person
 
 //Use proper indentation in scala 2 (required in scala 3)
 @main def hello: Unit = 

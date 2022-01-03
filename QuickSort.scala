@@ -5,7 +5,7 @@ and returns an ordered list
 */
 
 import math.Ordered.orderingToOrdered
-package com.ben{
+package myPackage{
 
 /** object for quick sort algorithim 
  * uses tail reursion and pattern matching
@@ -15,17 +15,20 @@ object QuickSort {
   *  @param elm 
   *  @param seq sequence to partition
   */
-  def partition[T](elm : T, seq : List[T], fp :List[T], sp: List[T])(implicit ord: T => Ordered[T]): (List[T], List[T]) = seq match {
+  def partition[T](elm : T, seq : List[T], fp :List[T], sp: List[T])(
+  implicit ord: T => Ordered[T]): (List[T], List[T]) = seq match {
     case fe::fl => if (fe < elm) partition(elm, fl, fe::fp,sp)
                                  else 
                                   partition(elm,fl,fp,fe::sp)
     case Nil => (fp,sp)
     
   }
+
   /** Method to sort List
   *  @param data list to sort
   */
-  def sort[T](data : List[T])(implicit ord: T => Ordered[T]): List[T] = data match {
+  def sort[T](data : List[T])(implicit ord: T => Ordered[T]): List[T] =
+     data match {
     case Nil => Nil
     case fv:: Nil => List(fv)
     case fv::fl => {

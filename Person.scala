@@ -3,7 +3,7 @@ Example HW1
 Problem 1: Create Person class that has name and age variables
 Compile this class in a package
 */
-package com.ben{
+package myPackage{
 /** A person
  *
  *  @constructor create a new person with a name and age.
@@ -15,7 +15,7 @@ case class Person(name: String, age: Int) extends Ordered[Person]{
   def compare(that: Person) = this.age - that.age
 }
   
-/** Factory for [[com.ben.Person]] instances. */
+/** Factory for [[myPackage.Person]] instances. */
 object Person {
   /** Creates a person with a given name and age.
    *
