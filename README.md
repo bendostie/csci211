@@ -19,9 +19,9 @@ Check out the main.scala file to see the code run
 2. Practice writing tests for your code with SBT (<a href="https://docs.scala-lang.org/scala3/book/tools-sbt.html">SBT</a>)
 
 
-## The hommework prompt for this example:
+## The homework prompt for this example:
 
-Write a class for each of these problems in seperate files and include them in a package
+Write a class for each of these problems in separate files and include them in a package
 
 Problem 1: Create a Person class that has name and age variables
 
